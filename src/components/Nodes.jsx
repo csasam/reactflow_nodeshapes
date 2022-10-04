@@ -31,7 +31,7 @@ const CircleNode = ({ data }) => {
   return (
     <div
       style={{
-        backgroundColor: "#9ca8b3",
+        backgroundColor: "red",
         padding: "14px",
         borderRadius: "50px"
       }}
@@ -96,7 +96,7 @@ export const TextNode = ({ data }) => {
 };
 
 export const nodeTypes = {
-  circle: CircleNode,
+  blah: CircleNode,
   rectangle: RectangleNode,
   triangle: TriangleNode,
   text: TextNode

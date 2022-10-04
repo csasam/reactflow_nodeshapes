@@ -58,7 +58,7 @@ const ReactFlowRenderer = () => {
     const newNode = {
       id: `${Date.now()}`,
       data: { label: `${name}` },
-      type: "circle",
+      type: "blah",
       position: {
         x: 0,
         y: 0
@@ -162,7 +162,7 @@ const ReactFlowRenderer = () => {
         height: "75vh",
         width: "75vw",
         border: "1px solid black",
-        marginLeft: "12.5vw"
+        marginLeft: "5.5vw"
       }}
     >
       <ReactFlow
