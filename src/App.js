@@ -1,5 +1,5 @@
 import React from "react";
-import ReactFlowRenderer from "./react-flow-renderer";
+import ReactFlowRenderer from "./components";
 
 const App = () => {
   return (
